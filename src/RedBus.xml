@@ -2,6 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="learn_TestNg" verbose="2">
+<listeners>
+<listener class-name="testNg_Packages.Listeners_Test"></listener>
+</listeners>
 	<test name="testNg_Packages">
 		<classes>
 			<class name="testNg_Packages.Makemytrip_Login" />
