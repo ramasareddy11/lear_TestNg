@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="learn_TestNg" verbose="2">
+	<test name="testNg_Packages">
+		<classes>
+			<class name="testNg_Packages.Makemytrip_Login" />
+			<class name="testNg_Packages.RedBus_Annotation" />
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+
+<suite name="makemytrip">
+<listeners>
+<listener class-name="testNg_Packages.Listeners_Test"></listener>
+</listeners>
+	<test name="makemytrip parameters">
+		<parameter name="username"
+			value="anitha.ramasanireddy@gmail.com"></parameter>
+		<parameter name="password" value="Ss@12345"></parameter>
+		<classes>
+			<class name="testNg_Packages.Parameter_Makemytrip"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="groups file">
+	<test name="groups test">
+	
+		<groups>
+	<run>
+	<exclude name="Makemytrip_Login"></exclude>
+	<include name="Annotations_Sample"></include>
+	
+	</run>
+	</groups>
+		<packages>
+		<package name="testNg_Packages"></package>
+	</packages>
+	</test>
+</suite>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="test parameter">
+	<test name="parameters passing">
+		<parameter name="firstname" value="ani" />
+		<parameter name="lastname" value="reddy">
+		</parameter>
+		<classes>
+			<class name="testNg_Packages.ParameterTest"></class>
+		</classes>
+	</test>
+</suite>
